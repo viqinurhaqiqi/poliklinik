@@ -1,0 +1,106 @@
+body {
+    font-family: 'Raleway', sans-serif;
+  
+}
+
+.navbar {
+    background-color: #000;
+    border: 0;
+    font-size: 12px !important;
+    letter-spacing: 4px;
+    
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a  { 
+    color: #7CBB00 !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar .navbar-brand {
+    color: #7CBB00;
+    font-family: 'Francois One', sans-serif;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+    background-color: #7CBB00 !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #7CBB00 !important;
+    background-color:transparent !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: transparent !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: #7CBB00 !important;
+}
+
+
+h1.page-header {
+    margin-top: -5px;
+}
+
+.sidebar {
+    padding-left: 0;
+}
+
+.sidebar li a  { 
+    color: #000 !important;
+}
+
+.sidebar li a:hover  { 
+    color: #fff !important;
+    font-family: 'Raleway', sans-serif;
+    background-color: #7CBB00 !important;
+}
+
+
+.main-container { 
+    background: #FFF;
+    padding-top: 15px;
+    margin-top: -20px;  
+}
+    
+.footer {
+    width: 100%;
+}
+
+.jumbotron {
+  background-color: #DFF2BF;
+  color: #7CBB00;
+}  
+
+.btn-sq-lg {
+  width: 200px !important;
+  height: 150px !important;
+}
+
+.btn-sq {
+  width: 100px !important;
+  height: 100px !important;
+  font-size: 10px;
+}
+
+.border {
+  border:1px solid black;
+}
